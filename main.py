@@ -5,9 +5,9 @@ from redis_om import get_redis_connection, HashModel
 app = FastAPI()
 
 redis = get_redis_connection(
-    host="redis-11018.c9.us-east-1-4.ec2.cloud.redislabs.com",
-    port = 11018,
-    password = "r7e0O71D8foGqHMskzmlA879VGcDjXSh",
+    host="Redis_hostname",
+    port = Redis_port_no,
+    password = "redis_instance_password",
     decode_responses = True
 )
 
